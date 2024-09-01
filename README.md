@@ -121,3 +121,4 @@ Bu testler şunları kapsar:
 
 - Global Entegrasyon: Identity mikroservisinden gelen kullanıcı verileri, ön uç kullanıcı sistemine tam entegre edilmiştir, bu sayede veri uygulama genelinde global olarak tanınır hale gelir.
 - Ürün Kataloğu: ProductAPI mikroservisinden çekilen ürünler mevcut ürün kataloğuna eklenmiştir, bu da uygulamanın ürün yapısını koruyarak zenginleştirmiştir.
+- EcommerceRadoreOrnek içerisindeki frontend MVC projesindeki ürünler kısmı çalışmıyordu. Bu kısım düzeltildi. Role bağlı butonların gösterimi sağlandı.
