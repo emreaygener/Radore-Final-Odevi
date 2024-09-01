@@ -1,0 +1,105 @@
+#live-support-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#live-support-modal form {
+  width: 80%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#live-support-modal header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 30%;
+}
+
+#live-support-modal header button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#live-support-modal section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+#live-support-modal footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+}
+
+#live-support-modal footer button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#live-support-modal form h2 {
+  margin-bottom: 20px;
+}
+
+#live-support-modal form input,
+#live-support-modal form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+#live-support-modal form ul {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.messageCustomer {
+  width: fit-content;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0 10px auto;
+}
+
+.messageAdmin {
+  width: fit-content;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto 10px 0;
+}
