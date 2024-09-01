@@ -1,0 +1,6 @@
+@Radore.Services.ChatService_HostAddress = http://localhost:5159
+
+GET {{Radore.Services.ChatService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
