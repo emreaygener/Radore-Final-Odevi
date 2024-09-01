@@ -89,7 +89,7 @@ Bu uygulama, ürün yönetimi ve kullanıcı doğrulama gibi farklı sorumlulukl
    Bir mikroservisi çalıştırma örneği:
 
    ```bash
-   dotnet run --project ./src/Services/ProductAPI/ProductAPI.csproj
+   dotnet run --project ./Radore.Services.ProductAPI/ProductAPI.csproj
    ```
 
 3. Servislerin çalıştığını doğrulayın: Konfigürasyonda tanımlanan ilgili URL'ler üzerinden servislerin erişilebilir olduğunu doğrulayın.
@@ -119,6 +119,5 @@ Bu testler şunları kapsar:
 
 ## Ek Bilgiler
 
-- Görseller: Uygulamada gösterim amaçlı kullanılan fotoğraflar, kök dizinde (./) bulunan 1.jpg ve 2.jpg dosya adlarına sahiptir.
 - Global Entegrasyon: Identity mikroservisinden gelen kullanıcı verileri, ön uç kullanıcı sistemine tam entegre edilmiştir, bu sayede veri uygulama genelinde global olarak tanınır hale gelir.
 - Ürün Kataloğu: ProductAPI mikroservisinden çekilen ürünler mevcut ürün kataloğuna eklenmiştir, bu da uygulamanın ürün yapısını koruyarak zenginleştirmiştir.
