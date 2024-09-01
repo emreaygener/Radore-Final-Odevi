@@ -35,6 +35,8 @@ Bu uygulama, ürün yönetimi ve kullanıcı doğrulama gibi farklı sorumlulukl
 - Önceki giriş fonksiyonu kaldırıldı ve uygulama genelinde yetkilendirme sağlayan bir Identity mikroservisi kullanıldı.
 - Orijinal giriş sistemi iptal edilmiş olmasına rağmen, `localhost:3000/login` ve `localhost:3000/register` adreslerinde bulunan formlar, validasyon yeteneklerini sergilemek amacıyla bırakıldı. Bu formlar, gerekli React validasyon mantığını içermektedir.
   ![Identity](Identity.jpg)
+  ![Login](login.jpg)
+  ![Register](register.jpg)
 
 ### 4. Birim Testleri
 
